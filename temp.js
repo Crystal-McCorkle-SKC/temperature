@@ -23,13 +23,12 @@ function convertToF() {
 
 
 //function to convert from human years to dog years
-//*this is not scientific
+//*this is not scientific ;) 
 function convertToDogYears () {
     var hYearsVal = document.getElementById("hYears").value;
     var dYearsVal = hYearsVal * 7;
     document.getElementById("dYears").value = dYearsVal;
 }
-
 
 //function to convert from dog years to human years 
 function convertToHumanYears () {
