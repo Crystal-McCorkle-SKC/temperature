@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="temp.css" rel="stylesheet">
+</head>
+<body>
+<h1>Temperature Converter</h1>
+
+
+<div class = "container">
+  <div class="row justify-content-center">
+        <form name="conversionForm">
+            <label>Fahrenheit</label>
+            <input name="fTemp" id="fTemp" type="text" placeholder="Enter a temperature">
+            <button type="button" class="btn btn-primary" onclick="convertToC()">Convert to Celsius</button>
+            <label>Celsius</label>
+            <input name="cTemp" id="cTemp" type="text" placeholder="Enter a temperature">
+            <button type="button" class="btn btn-primary" onclick="convertToF()">Convert to Fahrenheit</button>      
+        </form>
+    </div>
+</div>  
+
+<h1>Dog Years Converter</h1>
+
+
+<div class = "container">
+  <div class="row justify-content-center">
+        <form name="conversionForm">
+            <label>Human Years</label>
+            <input name="hYears" id="hYears" type="text" placeholder="Enter the human years">
+            <button type="button" class="btn btn-primary" onclick="convertToDogYears()">Convert to Dog Years</button>
+            <label>Dog Years</label>
+            <input name="dYears" id="dYears" type="text" placeholder="Enter the dog years">
+            <button type="button" class="btn btn-primary" onclick="convertToHumanYears()">Convert to Human Years</button>      
+        </form>
+    </div>
+</div>  
+
+<h1>Weight on Moon Converter</h1>
+
+<div class = "container">
+    <div class="row justify-content-center">
+          <form name="conversionForm">
+              <label>Weight on Earth</label>
+              <input name="weightOnEarth" id="weightOnEarth" type="text" placeholder="Enter your weight (lbs)">
+              <button type="button" class="btn btn-primary" onclick="moonWeight()">Convert to Moon Weight</button>
+              <label>Weight on Moon</label>
+              <input name="weightOnMoon" id="weightOnMoon" type="text" placeholder="Enter your weight (lbs)">
+              <button type="button" class="btn btn-primary" onclick="earthWeight ()">Convert to Earth Weight</button>      
+          </form>
+      </div>
+  </div> 
+
+<script type= "text/javascript" src="temp.js"></script>
+</body>
+</html>
